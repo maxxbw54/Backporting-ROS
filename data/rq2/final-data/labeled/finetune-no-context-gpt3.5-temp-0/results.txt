@@ -1,0 +1,99 @@
+---------------------------------------------
+3.5 turbo@[-1]: zero shot
+There are 180 commits.
+[Actual]There are 44 backported commits.
+[Actual]There are 136 not backported commits.
+[Actual]24.444% of the commits are backported.
+[Actual]75.556% of the commits arent backported.
+[Predicted]There are 170 backported commits.
+[Predicted]There are 10 not backported commits.
+[Predicted]94.444% of the commits are backported.
+[Predicted]24.706% of those are right.
+[Predicted]5.556% of the commits arent backported.
+[Predicted]80.000% of those are right.
+----------------------Counts-----------------------
+50 commits are correctly labeled.
+27.77777910232544% of the commits are correctly labeled.
+---------------------Analysis----------------------
+Backported TP: 0.23333333333333334
+Backported FP: 0.7111111111111111
+Backported FN: 0.011111111111111112
+NOT Backported TP: 0.044444444444444446
+NOT Backported FP: 0.011111111111111112
+NOT Backported FN: 0.7111111111111111
+--------------------Metrics------------------------
+                    Precision           Recall              F1
+Backported          0.24705882352941178 0.9545454545454546  0.3925233644859813
+Not Backported      0.8                 0.0588235294117647050.1095890410958904
+Micro-average       0.2777777777777778  0.2777777777777778  0.2777777777777778
+Macro-average       0.5235294117647059  0.5066844919786097  0.2510562027909359
+Cohen Kappa Coefficient: 0.006791171477079857
+
+---------------------------------------------
+3.5 turbo@[-1]: finetune
+There are 180 commits.
+[Actual]There are 44 backported commits.
+[Actual]There are 136 not backported commits.
+[Actual]24.444% of the commits are backported.
+[Actual]75.556% of the commits arent backported.
+[Predicted]There are 85 backported commits.
+[Predicted]There are 95 not backported commits.
+[Predicted]47.222% of the commits are backported.
+[Predicted]44.706% of those are right.
+[Predicted]52.778% of the commits arent backported.
+[Predicted]93.684% of those are right.
+----------------------Counts-----------------------
+127 commits are correctly labeled.
+70.55555582046509% of the commits are correctly labeled.
+---------------------Analysis----------------------
+Backported TP: 0.2111111111111111
+Backported FP: 0.2611111111111111
+Backported FN: 0.03333333333333333
+NOT Backported TP: 0.49444444444444446
+NOT Backported FP: 0.03333333333333333
+NOT Backported FN: 0.2611111111111111
+--------------------Metrics------------------------
+                    Precision           Recall              F1
+Backported          0.4470588235294118  0.8636363636363636  0.5891472868217054
+Not Backported      0.9368421052631579  0.6544117647058824  0.7705627705627704
+Micro-average       0.7055555555555556  0.7055555555555556  0.7055555555555556
+Macro-average       0.6919504643962848  0.759024064171123   0.6798550286922379
+Cohen Kappa Coefficient: 0.39390088945362145
+
+-------------Amount Correct-----------
+bothCorrect, 39.00
+bothWrong, 42.00
+zeroCorrectOnly, 11.00
+ftCorrectOnly, 88.00
+-------------Average Change Blocks-----------
+bothCorrect, 2.95
+bothWrong, 3.93
+zeroCorrectOnly, 8.27
+ftCorrectOnly, 9.85
+-------------Average Char Length-----------
+bothCorrect, 595.26
+bothWrong, 712.64
+zeroCorrectOnly, 1458.55
+ftCorrectOnly, 1062.68
+-------------Average Lines Length-----------
+bothCorrect, 10.90
+bothWrong, 17.10
+zeroCorrectOnly, 32.45
+ftCorrectOnly, 26.34
+-------------Average Cyclomatic Complexity-----------
+bothCorrect, 1.51
+bothWrong, 1.71
+zeroCorrectOnly, 1.82
+ftCorrectOnly, 1.67
+-------------Cyclomatic Complexities-----------
+bothCorrect, 2,2,2,3,3,3,3,5,6
+bothWrong, 2,2,2,2,3,3,4,4,5,6,8
+zeroCorrectOnly, 5,6
+ftCorrectOnly, 2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,4,4,4,6,6,9,16
+-------------Cyclomatic Complexity Buckets-----------
+range, bothCorrect,bothWrong,zeroCorrectOnly,ftCorrectOnly
+[1...2],30,31,9,66
+[2...3],3,4,0,13
+[3...5],4,4,0,5
+[5...10],2,3,2,3
+[10...2147483647],0,0,0,1

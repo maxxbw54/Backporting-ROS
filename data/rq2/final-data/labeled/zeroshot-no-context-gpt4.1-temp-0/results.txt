@@ -1,0 +1,43 @@
+---------------------------------------------
+backport-worthy-classifier
+There are 150 commits.
+[Actual]There are 40 backported commits.
+[Actual]There are 110 not backported commits.
+[Actual]26.667% of the commits are backported.
+[Actual]73.333% of the commits arent backported.
+[Predicted]There are 19 backported commits.
+[Predicted]There are 131 not backported commits.
+[Predicted]12.667% of the commits are backported.
+[Predicted]31.579% of those are right.
+[Predicted]87.333% of the commits arent backported.
+[Predicted]74.046% of those are right.
+---------------------------------------------
+@[-1]: backport-worthy-classifier
+There are 150 commits.
+[Actual]There are 40 backported commits.
+[Actual]There are 110 not backported commits.
+[Actual]26.667% of the commits are backported.
+[Actual]73.333% of the commits arent backported.
+[Predicted]There are 19 backported commits.
+[Predicted]There are 131 not backported commits.
+[Predicted]12.667% of the commits are backported.
+[Predicted]31.579% of those are right.
+[Predicted]87.333% of the commits arent backported.
+[Predicted]74.046% of those are right.
+----------------------Counts-----------------------
+103 commits are correctly labeled.
+68.66666674613953% of the commits are correctly labeled.
+---------------------Analysis----------------------
+Backported TP: 0.04
+Backported FP: 0.08666666666666667
+Backported FN: 0.22666666666666666
+NOT Backported TP: 0.6466666666666666
+NOT Backported FP: 0.22666666666666666
+NOT Backported FN: 0.08666666666666667
+--------------------Metrics------------------------
+                    Precision           Recall              F1
+Backported          0.3157894736842105  0.15                0.20338983050847456
+Not Backported      0.7404580152671756  0.8818181818181818  0.8049792531120332
+Micro-average       0.6866666666666666  0.6866666666666666  0.6866666666666666
+Macro-average       0.528123744475693   0.5159090909090909  0.5219449650729457
+Cohen Kappa Coefficient: 0.03819918144611197

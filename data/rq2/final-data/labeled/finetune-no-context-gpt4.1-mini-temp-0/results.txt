@@ -1,0 +1,43 @@
+---------------------------------------------
+backport-worthy-classifier
+There are 150 commits.
+[Actual]There are 40 backported commits.
+[Actual]There are 110 not backported commits.
+[Actual]26.667% of the commits are backported.
+[Actual]73.333% of the commits arent backported.
+[Predicted]There are 95 backported commits.
+[Predicted]There are 55 not backported commits.
+[Predicted]63.333% of the commits are backported.
+[Predicted]32.632% of those are right.
+[Predicted]36.667% of the commits arent backported.
+[Predicted]83.636% of those are right.
+---------------------------------------------
+@[-1]: backport-worthy-classifier
+There are 150 commits.
+[Actual]There are 40 backported commits.
+[Actual]There are 110 not backported commits.
+[Actual]26.667% of the commits are backported.
+[Actual]73.333% of the commits arent backported.
+[Predicted]There are 95 backported commits.
+[Predicted]There are 55 not backported commits.
+[Predicted]63.333% of the commits are backported.
+[Predicted]32.632% of those are right.
+[Predicted]36.667% of the commits arent backported.
+[Predicted]83.636% of those are right.
+----------------------Counts-----------------------
+77 commits are correctly labeled.
+51.33333206176758% of the commits are correctly labeled.
+---------------------Analysis----------------------
+Backported TP: 0.20666666666666667
+Backported FP: 0.4266666666666667
+Backported FN: 0.06
+NOT Backported TP: 0.30666666666666664
+NOT Backported FP: 0.06
+NOT Backported FN: 0.4266666666666667
+--------------------Metrics------------------------
+                    Precision           Recall              F1
+Backported          0.3263157894736842  0.775               0.45925925925925926
+Not Backported      0.8363636363636363  0.41818181818181815 0.5575757575757575
+Micro-average       0.5133333333333333  0.5133333333333333  0.5133333333333333
+Macro-average       0.5813397129186603  0.5965909090909091  0.5888665789655888
+Cohen Kappa Coefficient: 0.13438735177865618
