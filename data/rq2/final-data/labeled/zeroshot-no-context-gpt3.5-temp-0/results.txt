@@ -1,0 +1,30 @@
+---------------------------------------------
+GPT3.5@[-1]: Turbo Zero Shot
+There are 100 commits.
+[Actual]There are 31 backported commits.
+[Actual]There are 69 not backported commits.
+[Actual]31.000% of the commits are backported.
+[Actual]69.000% of the commits arent backported.
+[Predicted]There are 90 backported commits.
+[Predicted]There are 10 not backported commits.
+[Predicted]90.000% of the commits are backported.
+[Predicted]30.000% of those are right.
+[Predicted]10.000% of the commits arent backported.
+[Predicted]60.000% of those are right.
+----------------------Counts-----------------------
+33 commits are correctly labeled.
+33.000001311302185% of the commits are correctly labeled.
+---------------------Analysis----------------------
+Backported TP: 0.27
+Backported FP: 0.63
+Backported FN: 0.04
+NOT Backported TP: 0.06
+NOT Backported FP: 0.04
+NOT Backported FN: 0.63
+--------------------Metrics------------------------
+                    Precision           Recall              F1
+Backported          0.3                 0.8709677419354839  0.4462809917355372
+Not Backported      0.6                 0.08695652173913043 0.15189873417721517
+Micro-average       0.33                0.33                0.33
+Macro-average       0.44999999999999996 0.4789621318373072  0.2990898629563762
+Cohen Kappa Coefficient: -0.027607361963190212

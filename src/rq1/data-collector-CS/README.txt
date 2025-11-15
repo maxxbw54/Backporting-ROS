@@ -1,0 +1,1 @@
+This code was responsible for collecting the initial dataset of commits labeled with IsBackported true or false. It is C# code and can be run by importing each file as a class in a C# IDE or by using a command line compiler.
