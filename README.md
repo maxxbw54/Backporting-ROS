@@ -1,6 +1,10 @@
 # Backporting-ROS
 
+A research project focused on identifying and analyzing commit backporting patterns in open-source repositories using machine learning and data analysis techniques.
 
+## Overview
+
+This project investigates Research Questions (RQ) related to commit backporting—the process of applying changes from one branch or version to another. The repository contains tools and datasets for collecting commit data, analyzing backporting patterns, and building machine learning models to predict whether commits are backported.
 ## Key Components
 
 ### RQ1: Data Collection Tool (C#)
